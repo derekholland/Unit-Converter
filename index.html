@@ -1,8 +1,40 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="index.js"></script>
-    </body>
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Unit Converter</title>
+	</head>
+	<body>
+		<div class="container">
+			<div id="hero">
+				<h1>Metric/Imperial Unit Conversion</h1>
+				<input id="input-box" type="text" />
+				<button id="convert-btn">Convert</button>
+			</div>
+			<section class="main-content">
+				<div class="card card-1">
+					<p class="title">Length (Meter/Feet)</p>
+					<p id="length">Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="card">
+					<p class="title">Volume (Liters/Gallons)</p>
+					<p id="volume">Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="card">
+					<p class="title">Mass (Kilograms/Pounds)</p>
+					<p id="mass">Lorem ipsum dolor sit amet.</p>
+				</div>
+			</section>
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>
